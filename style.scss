@@ -299,9 +299,13 @@ body {
   }
 
   .carousel-content {
-    max-width: 40%;
+    max-width: 75%;
     margin: 0 auto;
     margin-top: 1.5rem;
+
+    @media screen and (min-width: 800px) {
+      max-width: 40%;
+    }
   }
 
   .section {
