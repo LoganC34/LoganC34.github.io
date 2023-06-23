@@ -254,3 +254,41 @@ body {
     }
   }
   
+  .carousel-btn {
+    height: 50px;
+    position: relative;
+  }
+
+  .carousel-control-next {
+    margin-left: 1rem;
+  }
+
+  .carousel-item {
+    min-height: 200px;
+  }
+
+  .fa-star {
+    font-size: 20px;
+  }
+  .checked {
+    color: orange;
+  }
+
+  .carousel-rating {
+    max-width: 120px;
+    margin: 0 auto;
+  }
+
+  .carousel-user {
+
+  }
+
+  .carousel-review {
+
+  }
+
+  .carousel-content {
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+  }
