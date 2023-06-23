@@ -65,7 +65,8 @@ body {
     display: block;
 
     &__title {
-        font-size: 2rem;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
     }
 
     &__section {
@@ -76,7 +77,7 @@ body {
 
         &-title {
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: 2rem;
             margin: 0;
         }
 
@@ -106,7 +107,9 @@ body {
   .menu-item {
     display: block;
     padding-top: 2rem;
-
+    &:first-of-type {
+      padding-top: 1rem;
+    }
 
 
     &__title {
@@ -161,6 +164,7 @@ body {
   
 
   .hours {
+    padding: 50px;
     &__heading {
       text-align: center;
       font-size: 24px;
@@ -192,7 +196,7 @@ body {
     margin: 0 auto;
     &__heading {
       text-align: center;
-      font-size: 24px;
+      font-size: 3rem;
       margin-bottom: 10px;
     }
   
@@ -257,6 +261,8 @@ body {
   .carousel-btn {
     height: 50px;
     position: relative;
+    min-width: 100px;
+    width: auto;
   }
 
   .carousel-control-next {
